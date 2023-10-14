@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: auto;
+  background-color: #333333;
+  color: #c0bab6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 60px;
+}
+.logo {
+  width: 260px;
+  height: 60px;
+}
+.logoName {
+  font-weight: 300;
+}
+.logo p {
+  font-size: 15px;
+}
+nav {
+  width: auto;
+  background-color: #232323;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #c0bab6;
+  text-decoration: none;
+  font-size: 16px;
+}
+nav a:hover {
+  color: orange;
+}
+
+@media screen and (max-width: 980px) {
+  header {
+    width: 100%;
+    height: auto;
+    background-color: #333333;
+    color: #c0bab6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  nav {
+    width: auto;
+    background-color: #232323;
+    padding: 20px;
+    display: flex;
+  }
+  main {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .heroSection {
+    max-width: 750px;
+  }
+  .articleSection {
+    max-width: 750px;
+    margin: 30px auto;
+  }
+
+
+
+  .detailed-article {
+    max-width: 750px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  header {
+    width: 100%;
+    height: auto;
+    background-color: #333333;
+    color: #c0bab6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  nav {
+    width: 100%;
+    background-color: #232323;
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  main {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .heroSection {
+    max-width: 670px;
+  }
+  .articleSection {
+    max-width: 700px;
+    margin: 30px auto;
+  }
+  .detailed-article {
+    max-width: 670px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  header {
+    width: 100%;
+    height: auto;
+    background-color: #333333;
+    color: #c0bab6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  nav {
+    width: 100%;
+    background-color: #232323;
+    background-color: rgb(153, 0, 255);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  main {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .heroSection {
+    max-width: 600px;
+  }
+  .articleSection {
+    max-width: 580px;
+    margin: 30px auto;
+  }
+
+
+  .detailed-article {
+    max-width: 600px;
+    margin: 30px auto;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .copyRight {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 45px;
+    padding: 20px 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  header {
+    width: 100%;
+    height: auto;
+    background-color: #333333;
+    color: #c0bab6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  nav {
+    width: 100%;
+    background-color: #232323;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  main {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .heroSection {
+    max-width: 400px;
+    height: 500px;
+  }
+  .articleSection {
+    max-width: 400px;
+    margin: 30px auto;
+  }
+  .detailed-article {
+    max-width: 400px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .quickLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+main {
+  width: 100%;
+  margin: 30px auto;
+}
+.heroSection {
+  width: 960px;
+  height: 360px;
+  background-color: #333333;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  line-height: 360px;
+  margin: 0 auto;
+}
+.articleSection {
+  width: 960px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 30px auto;
+}
+.main-article {
+  width: 292px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+.article-img {
+  min-width: 290px;
+  min-height: 180px;
+  line-height: 180px;
+  background-color: #333333;
+  border: 5px solid #e6e0e0;
+}
+
+.main-article h2,
+.main-article p,
+.main-article a {
+  opacity: 0.6;
+  margin-top: 10px;
+  text-align: left;
+  font-weight: lighter;
+  font-size: small;
+  line-height: 2.1;
+  color: black;
+}
+
+.main-article h2 {
+  font-size: large;
+}
+.main-article p {
+  margin-top: 10px;
+}
+.main-article a {
+  margin-top: -30px;
+  margin-right: -50%;
+  text-align: right;
+  color: orange;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.detailed-article {
+  width: 960px;
+  margin: 30px auto;
+  display: flex;
+  gap: 30px;
+}
+.detailed-article-content {
+  width: 480px;
+  opacity: 0.6;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: right;
+}
+.detailed-article-img {
+  width: 450px;
+  height: 250px;
+  line-height: 240px;
+  background-color: #333333;
+  border: 5px solid #e6e0e0;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+/* color the span element in the documnent */
+.font-color {
+  color: rgb(255, 166, 0);
+}
+footer {
+  width: 100%;
+}
+.quickLinks {
+  width: auto;
+  margin-top: 30px auto;
+  padding: 10px 10px 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.links a {
+  font-size: 12px;
+  line-height: 2.5;
+  color: white;
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px soild white;
+  color: orange;
+  align-items: stretch;
+}
+
+.quickLinks-heads {
+  color: white;
+  line-height: 3;
+}
+.copyRight {
+  background-color: #232323;
+  color: #919191;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 45px;
+  padding: 20px 0px;
+}
